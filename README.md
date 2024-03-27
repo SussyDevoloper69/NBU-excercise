@@ -1,6 +1,6 @@
 # NBU-excercise
 Docker compose floodlight/mininet
-# assignment
+# Assignment
 The end-of-semester exercise is
 - Install docker and familiarize yourself with it according to docker-ciriculum;
 - Familiarize yourself with docker compose and have the ability to compose your application stack into containers;
