@@ -35,7 +35,7 @@ Course: Telecommunications and computer technologies
 1. docker pull iwaseyusuke/mininet
 2. git clone http://github.com/SussyDevoloper69/NBU-excercise/main/
 3. cd project/
-4. docker build -t floodlight .
+4. docker build -t floodlight-imagev2 .
 5. docker compose up
 6. chmod +x ./automate.sh
 7. ./automate.sh
