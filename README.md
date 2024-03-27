@@ -1,31 +1,41 @@
 # NBU-excercise
 Docker compose floodlight/mininet
-Упражнението за завършване на семестъра е:
+# assignment
+The end-of-semester exercise is
+- Install docker and familiarize yourself with it according to docker-ciriculum;
+- Familiarize yourself with docker compose and have the ability to compose your application stack into containers;
 
+- Meet mininet;
 
+- Familiarize yourself with the SDN controller floodlight;
 
-- Инсталирайте docker и се запознайте с него според docker-ciriculum;
+- Make a repo on github
 
-- Запознайте се с docker compose и възможността да композирате свой стек от приложения в контейнери;
+- Write an example mininet python script that creates a network with a topology of <XYZ> switch and <YX> host connected in the topology of your observation.
 
-- Запознайте се с мининет;
-
-- Запознайте се с SDN контролера floodlight;
-
-- Направете си репо в github
-
-- Напишете примерен mininet python script, който създава мрежа с топология от <XYZ> суича и <YX> хоста свързани в топология по ваше усмотрение.
-
-X - предпоследната цифра от вашия факултетен номер;
-У - първата цифра от вашия факултетен номер;
-Z - последната цифра от вашия факултетен номер;
-- Направете си ваш docker-compose сетъп в репото, който да съдържа:
+X - the penultimate digit of your faculty number;
+Y - the first digit of your faculty number;
+Z - the last digit of your faculty number;
+- Make your own docker-compose setup in the repo that contains:
 
 mininet
 floodlight
-Вашия скрипт
-Демонстрирайте как конфигурирате двупосочни трафик правила между двата най-отдалечени хоста от вашата мрежа със скрипт към апито на floodlight.
+Your script
+Demonstrate how to configure two-way traffic rules between the two furthest hosts on your network with a script to the floodlight API.
 
-Демонстрирайте, че вашия скрипт работи като пуснете пинг между двата хоста, за които сте създали правилата.
+Demonstrate that your script works by pinging between the two hosts you created the rules for.
 
-Изпрате ми screen recording в youtube, в който демонстрирате същността на вашия сетъп и линк към вашето репо.
+Send me a screen recording on youtube demonstrating the essence of your setup and a link to your repo.
+# About the university
+New Bulgarian University
+Tutor: Mr.Nikolay Milovanov
+Course: Telecommunications and computer technologies
+
+# How to run 
+1. docker pull iwaseyusuke/mininet
+2. git clone http://github.com/SussyDevoloper69/NBU-excercise/main/
+3. cd project/
+4. docker build -t floodlight .
+5. docker compose up
+6. ./automate.sh
+# Link to youtube
