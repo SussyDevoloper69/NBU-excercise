@@ -1,7 +1,7 @@
 # start from base
 FROM ubuntu:16.04
 
-# install system-wide deps for python and node
+
 RUN apt-get -yqq update && apt-get -yqq upgrade
 RUN apt-get -yqq install git maven ant openjdk-8-jdk-headless build-essential python-dev
 
