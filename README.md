@@ -16,14 +16,13 @@ The end-of-semester exercise is
 X - the penultimate digit of your faculty number;
 Y - the first digit of your faculty number;
 Z - the last digit of your faculty number;
-- Make your own docker-compose setup in the repo that contains:
+ Make your own docker-compose setup in the repo that contains:
+ mininet;
+ floodlight;
+ Your script;
+Demonstrate how to configure two-way traffic rules between the two furthest hosts on your network with a script to the floodlight API.
 
--mininet
--floodlight
--Your script
--Demonstrate how to configure two-way traffic rules between the two furthest hosts on your network with a script to the floodlight API.
-
--Demonstrate that your script works by pinging between the two hosts you created the rules for.
+Demonstrate that your script works by pinging between the two hosts you created the rules for.
 
 -Send me a screen recording on youtube demonstrating the essence of your setup and a link to your repo.
 # About the university
