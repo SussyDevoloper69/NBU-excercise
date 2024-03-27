@@ -34,7 +34,9 @@ Demonstrate that your script works by pinging between the two hosts you created 
 -Send me a screen recording on youtube demonstrating the essence of your setup and a link to your repo.
 # About the university
 -New Bulgarian University
+
 -Tutor: Mr.Nikolay Milovanov
+
 -Course: Telecommunications and computer technologies
 
 # How to run 
