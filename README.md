@@ -44,7 +44,7 @@ Demonstrate that your script works by pinging between the two hosts you created 
 2. git clone https://github.com/SussyDevoloper69/NBU-excercise.git
 3. cd project/
 4. docker build -t floodlight-imagev2 .
-5. docker compose up
+5. docker compose up -d
 6. chmod +x ./automate.sh
 7. ./automate.sh
 # Link to youtube
