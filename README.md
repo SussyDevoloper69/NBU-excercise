@@ -37,5 +37,6 @@ Course: Telecommunications and computer technologies
 3. cd project/
 4. docker build -t floodlight .
 5. docker compose up
-6. ./automate.sh
+6. chmod +x ./automate.sh
+7. ./automate.sh
 # Link to youtube
