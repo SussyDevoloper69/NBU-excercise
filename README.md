@@ -48,3 +48,4 @@ Demonstrate that your script works by pinging between the two hosts you created 
 6. chmod +x ./automate.sh
 7. ./automate.sh
 # Link to youtube
+https://youtu.be/3JK0j7xFuOQ
